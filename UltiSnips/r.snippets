@@ -1,0 +1,26 @@
+#################################
+#  roxygen snippets (x2)_
+#################################
+# Taken from https://github.com/jalvesaq/Nvim-R/issues/383
+
+snippet #'p "Roxygen package template" b
+#' `!p snip.rv = snip.basename`: $1
+#'
+#' $2
+#'
+#' @docType package
+#' @name `!p snip.rv = snip.basename`
+endsnippet
+
+snippet #' "Roxygen function template" b
+#' $1
+#'
+#' @param $2
+#'
+#' @return $3
+#'
+#' @examples
+#' $4
+#'
+#' @export
+endsnippet
